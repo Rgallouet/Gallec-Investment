@@ -1,0 +1,54 @@
+# Requirement Title
+*(Short, descriptive name — e.g., "User Login System")*
+
+---
+
+## 1. Business Context
+- **Background**: Why this requirement exists.
+- **Stakeholders**: Who benefits or is impacted.
+- **Business Value**: What outcome or problem it solves.
+
+---
+
+## 2. Functional Requirement
+- **Description**: Clear statement of what the system must do.
+- **Scope**: Boundaries (what’s included, what’s excluded).
+- **Dependencies**: Other features, systems, or requirements this relies on.
+
+---
+
+## 3. Non-Functional Requirements
+- Performance (e.g., response time < 2s)
+- Security (e.g., passwords hashed with bcrypt)
+- Usability (e.g., mobile-friendly interface)
+- Compliance (e.g., GDPR, HIPAA)
+
+---
+
+## 4. User Story
+*Format: As a [role], I want [feature], so that [benefit].*
+
+Example:  
+_As a registered user, I want to log in with my email and password so that I can access my account securely._
+
+---
+
+## 5. Acceptance Criteria
+- [ ] Given valid credentials, user is logged in.
+- [ ] Given invalid credentials, error message is shown.
+- [ ] Passwords are stored securely.
+
+---
+
+## 6. Traceability
+- **Requirement ID**: REQ-001
+- **Linked Issues**: #12, #15
+- **Linked PRs**: #22
+- **Linked Tests**: test_login_success, test_login_failure
+
+---
+
+## 7. Notes
+- Open questions
+- Risks
+- Future considerations
